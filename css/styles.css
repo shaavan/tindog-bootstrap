@@ -1,4 +1,22 @@
+/* ---------- Tag Selector ---------- */
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* ---------- Class Selector ---------- */
+
+.container-fluid {
+    padding: 3% 15%;
+}
 
 /* ---------- ID Selector ---------- */
 
