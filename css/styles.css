@@ -8,20 +8,24 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 
 /* ---------- Class Selector ---------- */
 
+.container-fluid {
+    padding: 7% 15%;
+}
+
 /* Navbar Section */
 .navbar {
-    padding-bottom: 4.5rem;
+    padding-bottom: 7rem;
 }
 
 .navbar-brand {
     font-family: "Ubuntu";
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -37,7 +41,9 @@ h1 {
 
 /* Hero Area */
 
-.container-fluid {
+.hero-section {
+    overflow: hidden;
+    max-height: 700px;
     padding: 3% 15%;
 }
 
@@ -53,8 +59,65 @@ h1 {
 .title-img {
     width: 60%;
     transform: rotate(15deg);
+    margin-left: 27%;
 }
 
+/* Feature Section */
+
+.feature-section {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.feature-section h3 {
+    font-weight: bold;
+}
+
+.feature-section p {
+    color: #8f8f8f
+}
+
+.feature-icon {
+    color: #ef8172;
+    padding-bottom: 20px;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+.testimonials-section {
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.testimonials-section h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+.testimonials-image {
+    width: 100px;
+    border-radius: 100%;
+    margin: 0 20px;
+}
+
+/* Press */
+
+.press-section {
+    background-color: #ef8172;
+    padding-top: 0;
+    text-align: center;
+}
+
+.press-section img {
+    width: 160px;
+    padding: 0 10px;
+}
 
 /* ------------- ID Selector -------------- */
 
