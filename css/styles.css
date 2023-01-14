@@ -1,7 +1,7 @@
 /* ---------- Tag Selector ---------- */
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -14,12 +14,51 @@ h1 {
 
 /* ---------- Class Selector ---------- */
 
+/* Navbar Section */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/* Hero Area */
+
 .container-fluid {
     padding: 3% 15%;
 }
 
-/* ---------- ID Selector ---------- */
+.main-heading {
+    padding-top: 100px;
+}
+
+
+.download-btn {
+    margin: 4% 2% 0 0;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(15deg);
+}
+
+
+/* ------------- ID Selector -------------- */
 
 #title {
     background-color: #ff4c68;
+    color: #fff
 }
